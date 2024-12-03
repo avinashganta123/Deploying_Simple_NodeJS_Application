@@ -1,3 +1,3 @@
 #!/bin/bash
-cd /var/www/html/myproject
-npm install
+# cd /opt/nodeproject/Deploying_Simple_NodeJS_Application
+# npm install
