@@ -1,3 +1,4 @@
 #!/bin/bash
-cd /opt/nodeproject/Deploying_Simple_NodeJS_Application
-npm start
+cd /home/ubuntu/my-node-app
+pm2 stop all || true
+pm2 start app.js
