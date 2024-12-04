@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /home/ubuntu/my-node-app
+    destination: /opt/deployin-node-application/my-node-app
 hooks:
   AfterInstall:
     - location: scripts/install_dependencies.sh
