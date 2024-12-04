@@ -1,4 +1,4 @@
 #!/bin/bash
-pm2 stop all || true
-pm2 start /home/ubuntu/my-node-app/index.js
-
+# pm2 stop all || true
+cd /opt/deployin-node-application/my-node-app
+npm start

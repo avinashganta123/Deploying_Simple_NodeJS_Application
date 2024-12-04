@@ -1,4 +1,4 @@
 #!/bin/bash
-cd /home/ubuntu/my-node-app
+cd /opt/deployin-node-application/my-node-app
 npm install
 
