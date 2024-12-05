@@ -14,5 +14,6 @@
 set -e
 echo "Starting the Node.js application..."
 cd /opt/deployin-node-application/my-node-app
-nohup npm start > /var/log/my-node-app.log 2>&1 &
+# nohup npm start > /var/log/my-node-app.log 2>&1 &
+npm start &>> output.log &
 
