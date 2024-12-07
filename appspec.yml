@@ -16,7 +16,7 @@
 version: 0.0
 os: linux
 files:
-  - source: /index.js
+  - source: /
     # destination: /opt/deployin-node-application/my-node-app
     destination: /opt/NodeJSapplications/my-node-app
 hooks:
