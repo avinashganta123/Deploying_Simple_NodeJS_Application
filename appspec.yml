@@ -17,7 +17,7 @@ version: 0.0
 os: linux
 files:
   - source: /
-    # destination: /opt/deployin-node-application/my-node-
+    # destination: /opt/deployin-node-application/my-node-app
     destination: /opt/NodeJSapplications/my-node-app
 hooks:
   BeforeInstall:
